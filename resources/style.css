@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+#mission {
+  background-image: url("../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+.banner {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 300px;
+  bottom: 300px;
+  justify-content: center;
+  align-items: center;
+}
+.banner h4 {
+  margin-top: -10px;
+}
+#month {
+  width: 1000px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.teatype img {
+  height: 200px;
+  width: 300px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.teatype p {
+  text-align: center;
+  margin-top: 10px;
+}
