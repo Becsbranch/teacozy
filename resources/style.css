@@ -5,6 +5,22 @@ body {
   opacity: 0.9;
   font-size: 22px;
 }
+header {
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+.nav a {
+  color: seashell;
+  padding: 10px;
+}
 #mission {
   background-image: url("../resources/images/img-mission-background.jpg");
   height: 700px;
@@ -33,6 +49,7 @@ body {
 .teatype img {
   height: 200px;
   width: 300px;
+  margin: 10px 10px;
 }
 .images {
   display: flex;
@@ -42,4 +59,28 @@ body {
 .teatype p {
   text-align: center;
   margin-top: 10px;
+}
+#locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("../resources/images/img-locations-background.jpg");
+}
+#locations h2 {
+  text-align: center;
+}
+.portland {
+  display: flex;
+}
+.address {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.address h3, p {
+  opacity: 0.9;
 }
