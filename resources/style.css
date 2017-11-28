@@ -67,14 +67,16 @@ header {
 }
 #locations h2 {
   text-align: center;
+
 }
 .portland {
   display: flex;
+  justify-content: center;
 }
 .address {
   width: 300px;
   height: 300px;
-  margin: 40px;
+  margin: 20px;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -83,4 +85,11 @@ header {
 }
 .address h3, p {
   opacity: 0.9;
+}
+#contact {
+  height: 200px;
+  text-align: center;
+}
+#copyright {
+  margin: 20px;
 }
