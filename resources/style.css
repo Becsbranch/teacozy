@@ -4,7 +4,9 @@ body {
   color: seashell;
   opacity: 0.9;
   font-size: 22px;
+  width: 1200px;
 }
+/* pertains to header section*/
 header {
   height: 69px;
   display: flex;
@@ -21,10 +23,10 @@ header {
   color: seashell;
   padding: 10px;
 }
+/*next section = mission - background image with a black banner*/
 #mission {
   background-image: url("../resources/images/img-mission-background.jpg");
   height: 700px;
-  width: 1200px;
 }
 .banner {
   background-color: black;
@@ -40,16 +42,18 @@ header {
 .banner h4 {
   margin-top: -10px;
 }
+/*next section = Tea of the Month. 5 images within a flexbox, with a black background. I can't get the last 2 images to have correct spacing!(yet)*/
 #month {
   width: 1000px;
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
 }
+
 .teatype img {
   height: 200px;
   width: 300px;
-  margin: 10px 10px;
+  margin: 10px;
 }
 .images {
   display: flex;
@@ -60,22 +64,24 @@ header {
   text-align: center;
   margin-top: 10px;
 }
+/*section called "Locations" - has 3 addresses in black boxes, over a background image*/
 #locations {
   height: 500px;
-  width: 1200px;
   background-image: url("../resources/images/img-locations-background.jpg");
 }
 #locations h2 {
+  position: relative;
+  margin-bottom: 15px;
   text-align: center;
-
 }
 .portland {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 .address {
   width: 300px;
-  height: 300px;
+  height: auto;
   margin: 20px;
   background-color: black;
   display: flex;
