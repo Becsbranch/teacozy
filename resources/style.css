@@ -42,14 +42,13 @@ header {
 .banner h4 {
   margin-top: -10px;
 }
-/*next section = Tea of the Month. 5 images within a flexbox, with a black background. I can't get the last 2 images to have correct spacing!(yet)*/
+/*next section = Tea of the Month. 5 images within a flexbox, with a black background*/
 #month {
   width: 1000px;
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
 }
-
 .teatype img {
   height: 200px;
   width: 300px;
@@ -58,7 +57,9 @@ header {
 .images {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
 }
 .teatype p {
   text-align: center;
@@ -70,9 +71,10 @@ header {
   background-image: url("../resources/images/img-locations-background.jpg");
 }
 #locations h2 {
-  position: relative;
-  margin-bottom: 15px;
-  text-align: center;
+padding-top: 30px;
+padding-bottom: 10px;
+margin-bottom: 0px;
+text-align: center;
 }
 .portland {
   display: flex;
@@ -82,7 +84,7 @@ header {
 .address {
   width: 300px;
   height: auto;
-  margin: 20px;
+  margin: 0px 20px;
   background-color: black;
   display: flex;
   flex-direction: column;
