@@ -5,6 +5,7 @@ body {
   opacity: 0.9;
   font-size: 22px;
   width: 1200px;
+  height: 560px;
 }
 /* pertains to header section*/
 header {
@@ -68,9 +69,12 @@ header {
 /*section called "Locations" - has 3 addresses in black boxes, over a background image*/
 #locations {
   height: 500px;
+  width: 1200px;
+  background-size: 1200px 700px;
   background-image: url("../resources/images/img-locations-background.jpg");
 }
 #locations h2 {
+margin: 0;
 padding-top: 30px;
 padding-bottom: 10px;
 margin-bottom: 0px;
